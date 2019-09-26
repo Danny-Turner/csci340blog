@@ -15,6 +15,7 @@ The header of the Long Haul template displayed an image of a bike.
 
 I replaced this with an image of fractal that I created several years ago.
 ![fractal](../../../assets/img/fractal1.jpg#controlsize)
+![fractal](../../../assets/img/Fractal1.jpg#controlsize)
 
 I learned two very handy tricks while switching these images.
 1. The "Find in Project" option (ctril+shift+f) was very handy for locating all of the references to the touring.jpg
