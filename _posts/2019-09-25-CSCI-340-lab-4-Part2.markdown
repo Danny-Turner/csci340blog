@@ -19,4 +19,4 @@ I replaced this with an image of fractal that I created several years ago.
 I learned two very handy tricks while switching these images.
 1. The "Find in Project" option (ctril+shift+f) was very handy for locating all of the references to the touring.jpg
 
-2. [This article](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) taught me how to use a url fragment (for example: ""/img/Fractal1.jpg#controlsize" instead of just ""/img/Fractal1.jpg"). I was then able to add a section to style.css to format items with #controlsize.
+2. [This article](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) taught me how to use a url fragment (for example: "/img/Fractal1.jpg#controlsize" instead of just "/img/Fractal1.jpg"). I was then able to add a section to style.css to format items with #controlsize.
