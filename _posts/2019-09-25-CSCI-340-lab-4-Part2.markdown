@@ -1,0 +1,22 @@
+---
+layout: post
+author: Dan Turner
+---
+# Long Haul
+
+For this section of Lab 4 we learned how to change our blog theme. By default the blog we setup in Lab 3 used the minima theme. In order to change this, we started by reading [this article](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) which gives a nice overview of the steps involved in modifying parts of a default theme. Then we were given our choice of three themes from [a list of Jekyll themes/templates](https://www.wowthemes.net/jekyll-themes-templates/). I decided to use the Long Haul theme. As it turns out, this was a fortunate choice. (We discovered in class that the other two themes were much more difficult to work with.)
+
+In order to modify the default theme/template we simply add directories and files to our "csci340blog" directory. Jekyll then uses these files in place of the corresponding files in the default minima template. The changes went failry smoothly with two exceptions:
+1. I made the mistake of overwriting the minima default "assets" folder with the Long Haul "assets" folder. (Dr. Goadrich suggested that I fix this by getting the minima assets folder from github.)
+2. In order to see the correct css styling on my local copy of the site, I had to restart the local sever after almost every change.  (bundle exec jekyll serve)
+
+The header of the Long Haul template displayed an image of a bike.
+![bike](../../../assets/img/touring.jpg#controlsize)
+
+I replaced this with an image of fractal that I created several years ago.
+![fractal](../../../assets/img/fractal1.bmp#controlsize)
+
+I learned two very handy tricks while switching these images.
+1. The "Find in Project" option (ctril+shift+f) was very handy for locating all of the references to the touring.jpg
+
+2. [This article](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) taught me how to use a url fragment (for example: ""/img/fractal1.bmp#controlsize" instead of just ""/img/fractal1.bmp.jpg"). I was then able to add a section to style.css to format items with #controlsize.
