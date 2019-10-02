@@ -1,0 +1,18 @@
+---
+layout: post
+author: Dan Turner
+---
+### Data Modeling
+
+In this lab we were given information regarding an auction website. First we were directed to present the information in an entity relationship diagram. The lab instructions indicated we should have at least 3 distinct entities. Initially I considered using sellers, buyers, and items as my entities. I planned to connect/relate them with bids. However, after a little more thought, it seemed that selling and buying were just two different actions that a user could take on the website. In addition, I realized that I would need to have attributes associated with bids. This caused me to consider that perhaps bids should be  entities instead of a relationships. In order to clear some of these questions up, I read the article on [entity relationship diagrams](https://www.smartdraw.com/entity-relationship-diagram/).  In the article, it seemed that actions/relationships do not have attributes. However this means that the diamonds naming the relationships between entities don't seem to serve any purpose. The lines with the crows feet etc seem to convey all of the needed information about the relationships. In the end I decided that my entities would be:
+- Users
+- Items
+- Bids
+
+In order to track sale information, I decided to include a boolean attribute in the bid entity that would be set to true if the bid ultimately becomes the winning bid.
+
+![Entity Relationship]({{site.baseurl}}/assets/img/Lab5Image1.png)
+
+Next we were instructed to present the information as a SQL Schema using Vertabelo. This seemed much more straight forward. It only took a few minutes to create a SQL schema in Vertabelo that corresponded to my entity relationship diagram. I believe the resulting database is in 3rd normal form.
+
+![SQL Schema]({{site.baseurl}}/assets/img/Lab5Image2.png)

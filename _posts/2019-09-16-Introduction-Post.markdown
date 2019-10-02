@@ -3,7 +3,7 @@ layout: post
 author: Dan Turner
 ---
 
-# First Post
+### First Post
 
 I just finished setting up this blog. The process was fairly involved, but the [instructions](http://mark.goadrich.com/courses/csci340f19/labs/lab3.html) for the lab were very straight forward.  Hopefully as the course progresses I will actually understand what I just did.
 
