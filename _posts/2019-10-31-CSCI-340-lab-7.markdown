@@ -1,0 +1,14 @@
+---
+layout: post
+author: Dan Turner
+---
+### JavaScript and JQuery
+
+In this lab we built a web page using JavaScript and JQuery. This lab was a lot of fun!!!
+At first it was frustrating to realize how much I had forgotten about html and CSS since lab 2. Fortunately, it didn't take too long to get back up to speed. Adding the functionality of JavaScript and JQuery allows us to make some really nice web pages. In particular, the ability to use AJAX to pull information from APIs into our web pages opens up a world of possibilities. The [Jquery tutorial](https://www.w3schools.com/jquery/default.asp) was very helpful and it was easy to use google to answer any additional questions about JavaScript or JQuery.
+
+For my two APIS, I choose The [NASA Astronomy pic of the day API](https://api.nasa.gov/) and the [Magic the Gathering Developers API](https://magicthegathering.io/). Both of these have lots of beautiful images and allowed me to figure out how to overcome different issues.  
+
+The NASA sight required the use of an API key. Fortunately this turned out to be fairly straight forward. It also gave me a chance to experiment with using a date selector. The date selector was more challenging to figure out, but should come in handy later.  
+
+The Magic the Gathering API was more complicated. It had several query parameters to work with and it sent more complicated JSON data back. In addition, it randomly stopped working because of CORS. I tried using the JSONP format and the script for the google proxy server, but I still received CORS errors at random times. Finally, I added the proxy sever JQuery code from solution 2 in [this article](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9) to my javascript file and the CORS errors went away. The trade off is that my queries to the Magic the Gathering API are really slow sometimes. In particular, sometimes when you click on the name of a card it is not obvious that anything is going to happen.
