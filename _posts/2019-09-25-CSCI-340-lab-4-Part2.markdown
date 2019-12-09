@@ -1,9 +1,8 @@
 ---
 layout: post
 author: Dan Turner
+title: Long Haul
 ---
-### Long Haul
-
 For this section of Lab 4 we learned how to change our blog theme. By default the blog we setup in Lab 3 used the minima theme. In order to change this, we started by reading [this article](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) which gives a nice overview of the steps involved in modifying parts of a default theme. Then we were given our choice of three themes from [a list of Jekyll themes/templates](https://www.wowthemes.net/jekyll-themes-templates/). I decided to use the Long Haul theme. As it turns out, this was a fortunate choice. (We discovered in class that the other two themes were much more difficult to work with.)
 
 In order to modify the default theme/template we simply add directories and files to our "csci340blog" directory. Jekyll then uses these files in place of the corresponding files in the default minima template. The changes went failry smoothly with two exceptions:
